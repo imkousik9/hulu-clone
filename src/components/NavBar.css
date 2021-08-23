@@ -4,6 +4,7 @@
   overflow-x: scroll;
   padding: 10px;
   padding-left: 40px;
+  white-space: nowrap;
 }
 
 .navBar::-webkit-scrollbar {
@@ -15,7 +16,7 @@
   scrollbar-width: none; /* Firefox */
 }
 
-.navBar > h5 {
+.navBar > h2 {
   cursor: pointer;
   margin-left: 30px;
   margin-right: 30px;
@@ -24,7 +25,7 @@
   transition: transform 50ms ease-out;
 }
 
-.navBar > h5:hover {
+.navBar > h2:hover {
   opacity: 1;
   transform: scale(1.2);
 }

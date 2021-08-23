@@ -37,10 +37,7 @@ function Header() {
         </div>
       </div>
 
-      <img
-        src="https://press.hulu.com/wp-content/uploads/2020/02/hulu-white.png"
-        alt="hulu logo"
-      />
+      <img src="https://links.papareact.com/ua6" alt="hulu logo" />
     </div>
   );
 }

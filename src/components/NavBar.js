@@ -5,29 +5,29 @@ import fetchUrl from '../requests';
 function NavBar({ setSeledtedOtion }) {
   return (
     <div className="navBar">
-      <h5 onClick={() => setSeledtedOtion(fetchUrl.fetchTrending)}>Trending</h5>
-      <h5 onClick={() => setSeledtedOtion(fetchUrl.fetchTopRated)}>
+      <h2 onClick={() => setSeledtedOtion(fetchUrl.fetchTrending)}>Trending</h2>
+      <h2 onClick={() => setSeledtedOtion(fetchUrl.fetchTopRated)}>
         Top Rated
-      </h5>
-      <h5 onClick={() => setSeledtedOtion(fetchUrl.fetchActionMovies)}>
+      </h2>
+      <h2 onClick={() => setSeledtedOtion(fetchUrl.fetchActionMovies)}>
         Action
-      </h5>
-      <h5 onClick={() => setSeledtedOtion(fetchUrl.fetchComedyMovies)}>
+      </h2>
+      <h2 onClick={() => setSeledtedOtion(fetchUrl.fetchComedyMovies)}>
         Comedy
-      </h5>
-      <h5 onClick={() => setSeledtedOtion(fetchUrl.fetchHorrorMovies)}>
+      </h2>
+      <h2 onClick={() => setSeledtedOtion(fetchUrl.fetchHorrorMovies)}>
         Horror
-      </h5>
-      <h5 onClick={() => setSeledtedOtion(fetchUrl.fetchRomanceMovies)}>
+      </h2>
+      <h2 onClick={() => setSeledtedOtion(fetchUrl.fetchRomanceMovies)}>
         Romance
-      </h5>
-      <h5 onClick={() => setSeledtedOtion(fetchUrl.fetchMystery)}>Mystery</h5>
-      <h5 onClick={() => setSeledtedOtion(fetchUrl.fetchSciFi)}>Sci-fi</h5>
-      <h5 onClick={() => setSeledtedOtion(fetchUrl.fetchWestern)}>Western</h5>
-      <h5 onClick={() => setSeledtedOtion(fetchUrl.fetchAnimation)}>
+      </h2>
+      <h2 onClick={() => setSeledtedOtion(fetchUrl.fetchMystery)}>Mystery</h2>
+      <h2 onClick={() => setSeledtedOtion(fetchUrl.fetchSciFi)}>Sci-fi</h2>
+      <h2 onClick={() => setSeledtedOtion(fetchUrl.fetchWestern)}>Western</h2>
+      <h2 onClick={() => setSeledtedOtion(fetchUrl.fetchAnimation)}>
         Animation
-      </h5>
-      <h5 onClick={() => setSeledtedOtion(fetchUrl.fetchTV)}>TV Movie</h5>
+      </h2>
+      <h2 onClick={() => setSeledtedOtion(fetchUrl.fetchTV)}>TV Movie</h2>
     </div>
   );
 }

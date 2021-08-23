@@ -1,10 +1,10 @@
 .videoCard {
   color: white;
-  /*500 400*/
+
   width: 400px;
-  height: 400px;
-  padding: 20px;
-  transition: transform 100ms;
+  height: 350px;
+  padding: 18px;
+  transition: all 300ms ease-in-out;
 }
 
 .videoCard:hover {
@@ -12,7 +12,6 @@
 }
 
 .videoCard > img {
-  /*500 300*/
   width: 400px;
   height: 250px;
   object-fit: contain;
@@ -23,9 +22,10 @@
 }
 
 .videoCard__stats {
-  display: none;
+  transition: opacity 300ms ease-in-out;
+  opacity: 0;
 }
 
 .videoCard:hover > .videoCard__stats {
-  display: inline;
+  opacity: 100;
 }
